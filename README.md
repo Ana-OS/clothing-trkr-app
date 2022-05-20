@@ -9,7 +9,7 @@ Web app built with Ruby on Rails where the user can create and edit an item, see
   - Run the command: 'bundle install'
   - Run the command: 'yarn add bootstrap'
 
-* To create database:
+* To create the database:
 
   - Run the command: 'rails db:create'
   - followed by 'rails db:migrate'
