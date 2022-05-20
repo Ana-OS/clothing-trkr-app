@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Web app built with Ruby on Rails where the user can create and edit an item, see a list of all items, mark and unmark an item for deletion with the possibility of adding a comment and delete an item permanently.
 
-Things you may want to cover:
+- Ruby version -> 2.6.6
 
-* Ruby version
+* To install gems and dependencies:
 
-* System dependencies
+  - Run the command: 'bundle install'
+  - Run the command: 'yarn add bootstrap'
 
-* Configuration
+* To create database:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  - Run the command: 'rails db:create'
+  - followed by 'rails db:migrate'
