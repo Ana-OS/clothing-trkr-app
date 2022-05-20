@@ -1,0 +1,12 @@
+<div class="container col-6 mt-5">
+  <%= simple_form_for @item do |f| %>
+    <%= f.input :name %>
+    <%= f.input :type_of_product, collection: %w(t-shirt dress skirt pants jacket)%>
+    <%= f.input :color %>
+    <%= f.input :size, collection: %w( S M L) %>
+    <%= f.input :price %>
+    <%= f.input :quantity %>
+    <%= f.input :photo, as: :file %>
+    <%= f.button :submit, class: 'btn btn-primary' %>
+  <% end %>
+</div>
