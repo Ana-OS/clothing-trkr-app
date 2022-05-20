@@ -34,9 +34,7 @@ class ItemsController < ApplicationController
     redirect_to items_path
   end
 
-  def delete
-    # raise
-  end
+  def delete;end
 
   def flag
     @item.update(comment: params["item"][:comment], flagged: true)
