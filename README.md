@@ -15,4 +15,4 @@ Web app built with Ruby on Rails where the user can create and edit an item, see
   - followed by 'rails db:migrate'
   
 * To run the server:
- * Run the command: "rails s"
+  * Run the command: "rails s"
